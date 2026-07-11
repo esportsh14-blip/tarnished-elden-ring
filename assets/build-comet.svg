@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" fill="none" role="img" aria-label="Glintstone staff and comet emblem">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="46%" r="58%">
+      <stop offset="0%" stop-color="#c9a24a" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#c9a24a" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#c9a24a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6c876"/>
+      <stop offset="100%" stop-color="#b3862f"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="240" fill="url(#glow)"/>
+  <g stroke="#5f5636" stroke-width="1.4" opacity="0.55">
+    <circle cx="240" cy="112" r="92"/>
+    <circle cx="240" cy="112" r="80" stroke-dasharray="2 9"/>
+  </g>
+  <g stroke="url(#g)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M158 190 L286 74"/>
+    <path d="M286 74 m-14 6 a19 19 0 1 0 26 -12 a19 19 0 1 0 -26 12"/>
+  </g>
+  <g stroke="url(#g)" stroke-width="2.2" stroke-linecap="round" opacity="0.85">
+    <path d="M286 40 L286 22"/>
+    <path d="M312 52 L326 40"/>
+    <path d="M258 54 L244 42"/>
+  </g>
+  <g stroke="url(#g)" stroke-width="2.6" stroke-linecap="round" opacity="0.75">
+    <path d="M150 92 L196 138"/>
+    <path d="M138 108 L176 146"/>
+    <path d="M166 84 L206 124"/>
+  </g>
+  <circle cx="150" cy="92" r="6" fill="url(#g)"/>
+</svg>

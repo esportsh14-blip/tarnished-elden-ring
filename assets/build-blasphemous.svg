@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" fill="none" role="img" aria-label="Flaming greatsword emblem">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="46%" r="58%">
+      <stop offset="0%" stop-color="#c9a24a" stop-opacity="0.24"/>
+      <stop offset="60%" stop-color="#c9a24a" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#c9a24a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6c876"/>
+      <stop offset="100%" stop-color="#b3862f"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="240" fill="url(#glow)"/>
+  <g stroke="#5f5636" stroke-width="1.4" opacity="0.55">
+    <circle cx="240" cy="112" r="92"/>
+    <circle cx="240" cy="112" r="80" stroke-dasharray="2 9"/>
+  </g>
+  <g stroke="url(#g)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+    <path d="M214 156 q-16 -34 6 -66 q-8 30 10 46"/>
+    <path d="M266 156 q16 -34 -6 -66 q8 30 -10 46"/>
+    <path d="M240 150 q-10 -46 0 -96 q10 50 0 96"/>
+  </g>
+  <g stroke="url(#g)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M240 40 L249 62 L247 150 L233 150 L231 62 Z"/>
+    <path d="M212 152 L268 152"/>
+    <path d="M240 152 L240 182"/>
+  </g>
+  <circle cx="240" cy="188" r="5" fill="url(#g)"/>
+</svg>
