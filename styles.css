@@ -1,4 +1,4 @@
-/* Tarnished — design tokens */
+/* Tarnished design tokens */
 :root {
   --bg: #101312;
   --bg-deep: #0a0c0b;
@@ -167,21 +167,36 @@ button { font-family: inherit; cursor: pointer; }
   width: 100%;
   margin-top: auto;
   padding-top: var(--space-5);
-  line-height: 0.78;
+  line-height: 0.82;
+  text-align: center;
   user-select: none;
+  position: relative;
+}
+.hero-wordmark::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 12%;
+  width: min(60vw, 640px);
+  height: 42%;
+  transform: translateX(-50%);
+  background: radial-gradient(60% 100% at 50% 50%, rgba(201, 162, 74, 0.16), transparent 72%);
+  filter: blur(6px);
+  pointer-events: none;
 }
 .hero-wordmark span {
   display: block;
+  position: relative;
   font-family: var(--font-display);
-  font-size: clamp(64px, 15.3vw, 300px);
-  letter-spacing: -0.015em;
-  color: var(--wordmark);
+  font-size: clamp(44px, 13.4vw, 250px);
+  letter-spacing: -0.02em;
+  text-align: center;
   white-space: nowrap;
-  transform: translateY(6%);
-  background: linear-gradient(180deg, #d9d6ca 20%, #8f8d82 100%);
+  background: linear-gradient(180deg, #ece9dd 0%, #c3c0b4 52%, #6f6d63 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.45));
 }
 .hero-byline {
   margin-top: var(--space-4);
